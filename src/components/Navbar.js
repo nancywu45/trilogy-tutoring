@@ -1,19 +1,19 @@
 import React, { useState } from "react";
 
 const Navbar = () => {
-  const [count, setCount] = useState(0);
   return (
-    <header>
-      <h1>Trilogy Tutoring</h1>
-      <button onClick={() => setCount(count + 1)}>+</button>
-      <button onClick={() => setCount(count - 1)}>-</button>
-      <PropsTest count={count} />
-    </header>
+    <div className="navbar">
+      <div className="tab-0 logo">
+        <h2>Trilogy</h2>
+      </div>
+      <div className="tab-1">
+        <h3>About</h3>
+      </div>
+      <div className="tab-2">
+        <h3>Contact Us</h3>
+      </div>
+    </div>
   );
-};
-
-const PropsTest = ({ count }) => {
-  return <h4>counter test: {count}</h4>;
 };
 
 export default Navbar;

@@ -1,14 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Pushster&display=swap");
-
-body {
-  margin: 0;
-  background-color: rgb(235, 235, 235);
-}
-
-h1 {
-  font-family: "Merriweather", serif;
-  color: #3a5f0b;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
 /* green hue #3A5F0B 
 gold hue #D4AF37 */
+
+body {
+  margin: 0;
+  background-color: rgb(243, 245, 240);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lora", serif;
+}
+
+.title {
+  text-align: center;
+  color: #3a5f0b;
+}
+
+.navbar {
+  display: flex;
+  width: 100vw;
+  height: 70px;
+  background-color: darkgrey;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.logo {
+  margin-right: auto;
+  color: #3a5f0b;
+}
+
+.tab {
+  width: 100vx;
+  height: 70px;
+  background-color: red;
+}
+
+img {
+  height: 300px;
+  justify-content: center;
+}
