@@ -1,11 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* green hue #3A5F0B 
 gold hue #D4AF37 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  background-color: rgb(243, 245, 240);
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -14,25 +18,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lora", serif;
+  font-family: "AileronRegular";
+  font-weight: bold;
+  font-style: normal;
 }
 
 .title {
   text-align: center;
-  color: #3a5f0b;
-}
-
-.navbar {
-  display: flex;
-  width: 100vw;
-  height: 70px;
-  background-color: darkgrey;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-.logo {
-  margin-right: auto;
   color: #3a5f0b;
 }
 
@@ -42,7 +34,14 @@ h6 {
   background-color: red;
 }
 
-img {
-  height: 300px;
-  justify-content: center;
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
 }

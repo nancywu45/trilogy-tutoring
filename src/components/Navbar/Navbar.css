@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  width: 100vw;
+  height: 70px;
+  background-color: #d7ccbc;
+}
+
+.logo {
+  height: 70px;
+  justify-self: start;
+  cursor: pointer;
+}
+
+.left-nav {
+  display: flex;
+}
+
+.menu-icon {
+  display: grid;
+}
