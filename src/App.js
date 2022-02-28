@@ -6,8 +6,7 @@ function App() {
   return (
     <div className="container">
       <Home />
-
-      {/*<Contact />*/}
+      <Contact />
     </div>
   );
 }

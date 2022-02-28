@@ -12,7 +12,7 @@ function Contact() {
         your child went through in class that week and set up focus areas and
         study tips.
       </p>
-      <h3>Sign up here! [insert]</h3>
+      <h3>Sign up here!</h3>
     </div>
   );
 }
