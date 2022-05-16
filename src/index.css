@@ -85,8 +85,8 @@ td {
   border: 1px solid;
 }
 
-.about {
-  margin: 50px;
+.ourteam {
+  margin: 100px;
   text-align: left;
   position: absolute;
   top: 50%;
@@ -94,7 +94,13 @@ td {
 
 .services {
   margin-top: 1050px;
-  margin-left: 50px;
+  margin-left: 100px;
+  text-align: left;
+  top: 50%;
+}
+
+.getatutor {
+  margin: 100px;
   text-align: left;
   top: 50%;
 }

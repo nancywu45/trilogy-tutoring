@@ -1,7 +1,7 @@
-.navbar {
+.header {
   display: flex;
   width: 100vw;
-  height: 100px;
+  height: 80px;
   background-color: #d7ccbc;
   margin-top: -80px;
   justify-content: space-around;
@@ -18,19 +18,19 @@
   cursor: pointer;
 }
 
-.navbar ul li {
+.header ul li {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
   position: relative;
 }
 
-.navbar ul li a {
+.header ul li a {
   text-decoration: none;
   color: black;
 }
 
-.navbar ul li::after {
+.header ul li::after {
   content: "";
   height: 2px;
   width: 0;
@@ -41,18 +41,10 @@
   transition: 0.5s;
 }
 
-.navbar ul li:hover::after {
+.header ul li:hover::after {
   width: 100%;
 }
 
 .left-nav {
   display: flex;
-}
-
-.menu-icon {
-  display: grid;
-}
-
-.menu-icon:hover {
-  cursor: pointer;
 }
