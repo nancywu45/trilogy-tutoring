@@ -1,6 +1,6 @@
 import React from "react";
-import trilogy from "../../../src/images/logo/trilogy-transparent.png";
-import "./Header.css";
+import trilogy from "../images/logo/trilogy-transparent.png";
+import "../styles/Header.css";
 
 const Header = () => {
   return (
