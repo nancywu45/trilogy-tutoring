@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import OurTeam from "./pages/OurTeam";
@@ -8,11 +8,11 @@ import RequestATutor from "./pages/RequestATutor";
 function App() {
   return (
     <div className="container">
-      <Header />
+      <Navbar />
       <Home />
-      <Services />
+      {/* <Services />
       <OurTeam />
-      <RequestATutor />
+      <RequestATutor /> */}
     </div>
   );
 }

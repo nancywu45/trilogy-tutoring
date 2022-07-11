@@ -1,0 +1,30 @@
+.title {
+  display: flex;
+  justify-content: center;
+  color: #d4af37;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+  /* margin: 20px auto; */
+  /* font-weight: 100px; */
+  /* line-height: 25px; */
+  color: #d4af37;
+}
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../images/trees.jpg);
+  background-size: cover;
+  background-position: center;
+  /* height: 50vh; */
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

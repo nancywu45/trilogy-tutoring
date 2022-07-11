@@ -1,10 +1,11 @@
 import React from "react";
+import "../styles/ourteam.css";
 
 const OurTeam = () => {
   return (
     <div id="ourteam">
       <div className="ourteam">
-        <h2>About</h2>
+        <h2>Our Team</h2>
         <p>
           The journey to success is never one-size-fits-all, we each require
           different needs. This is why Trilogy Tutoring pushes for personally

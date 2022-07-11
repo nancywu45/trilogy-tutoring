@@ -1,10 +1,11 @@
 import React from "react";
 import trilogy from "../images/logo/trilogy-transparent.png";
-import "../styles/Header.css";
+import "../styles/Navbar.css";
+import { Text } from "atomize";
 
-const Header = () => {
+const Navbar = () => {
   return (
-    <div className="header">
+    <div className="navbar">
       <div className="left-nav">
         <img src={trilogy} alt="trilogy logo" className="logo" />
         <h2>Trilogy</h2>
@@ -24,4 +25,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

@@ -18,32 +18,8 @@ h3 {
   font-family: "AileronRegular";
   font-weight: bold;
   font-style: normal;
-  text-align: center;
-}
-
-.title {
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url(../images/trees.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.title h1 {
-  font-size: 70px;
-  color: #3a5f0b;
-  margin-top: -200px;
-}
-
-.title em {
-  margin: 20px auto;
-  font-weight: 100px;
-  line-height: 25px;
-  color: #d4af37;
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -83,24 +59,4 @@ table,
 th,
 td {
   border: 1px solid;
-}
-
-.ourteam {
-  margin: 100px;
-  text-align: left;
-  position: absolute;
-  top: 50%;
-}
-
-.services {
-  margin-top: 1050px;
-  margin-left: 100px;
-  text-align: left;
-  top: 50%;
-}
-
-.getatutor {
-  margin: 100px;
-  text-align: left;
-  top: 50%;
 }
