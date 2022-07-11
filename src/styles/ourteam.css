@@ -2,3 +2,12 @@
   margin: 100px;
   text-align: center;
 }
+
+.profiles {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tutor {
+  width: 300px;
+}

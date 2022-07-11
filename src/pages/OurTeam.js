@@ -25,6 +25,24 @@ const OurTeam = () => {
           Finance／Computer Science and Medicine at the University of Auckland,
           maintaining grades of straight A’s across our courses.
         </p>
+        <div className="profiles">
+          <div className="tutor">
+            <h3>Carol Huang</h3>
+            <p>MBChB Student at The University of Auckland</p>
+          </div>
+          <div className="tutor">
+            <h3>Angel Li</h3>
+            <p>MBChB Student at The University of Auckland</p>
+          </div>
+          <div className="tutor">
+            <h3>Nancy Wu</h3>
+            <img src="\images\nancy.jpg" alt="Nancy Wu" />
+            <p>
+              BSc/BCom Student at the University of Auckland, majoring in
+              Computer Science, Finance, Business Analytics
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
