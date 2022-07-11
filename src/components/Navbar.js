@@ -8,14 +8,16 @@ const Navbar = () => {
     <div className="navbar">
       <div className="left-nav">
         <img src={trilogy} alt="trilogy logo" className="logo" />
-        <h2>Trilogy</h2>
+        <a href="#home">
+          <h2>Trilogy</h2>
+        </a>
       </div>
       <ul>
         <li>
-          <a href="#ourteam">Our Team</a>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#ourteam">Our Team</a>
         </li>
         <li>
           <a href="#requestatutor">Request a Tutor</a>

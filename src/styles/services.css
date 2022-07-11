@@ -1,5 +1,9 @@
 .services {
-  /* margin-top: 1050px; */
-  text-align: left;
-  top: 50%;
+  text-align: center;
+  margin: 100px;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-evenly;
 }

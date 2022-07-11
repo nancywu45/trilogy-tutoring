@@ -10,9 +10,9 @@ function App() {
     <div className="container">
       <Navbar />
       <Home />
-      {/* <Services />
+      <Services />
       <OurTeam />
-      <RequestATutor /> */}
+      <RequestATutor />
     </div>
   );
 }
