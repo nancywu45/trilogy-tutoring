@@ -27,16 +27,18 @@ const OurTeam = () => {
         </p>
         <div className="profiles">
           <div className="tutor">
+            <img src="\images\carol.jpg" alt="Carol Huang" />
             <h3>Carol Huang</h3>
             <p>MBChB Student at The University of Auckland</p>
           </div>
           <div className="tutor">
+            <img src="\images\angel.jpg" alt="Angel Li" />
             <h3>Angel Li</h3>
             <p>MBChB Student at The University of Auckland</p>
           </div>
           <div className="tutor">
-            <h3>Nancy Wu</h3>
             <img src="\images\nancy.jpg" alt="Nancy Wu" />
+            <h3>Nancy Wu</h3>
             <p>
               BSc/BCom Student at the University of Auckland, majoring in
               Computer Science, Finance, Business Analytics
