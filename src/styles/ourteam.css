@@ -8,10 +8,10 @@
   justify-content: space-evenly;
 }
 
-.tutor {
-  width: 300px;
+.profiles > .tutor > img {
+  width: 150px;
 }
 
-img {
-  width: 100px;
+.tutor {
+  width: 300px;
 }

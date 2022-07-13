@@ -27,17 +27,17 @@ const OurTeam = () => {
         </p>
         <div className="profiles">
           <div className="tutor">
-            <img src="\images\carol.jpg" alt="Carol Huang" />
+            <img src={require("../images/carol.jpg")} alt="Carol Huang" />
             <h3>Carol Huang</h3>
             <p>MBChB Student at The University of Auckland</p>
           </div>
           <div className="tutor">
-            <img src="\images\angel.jpg" alt="Angel Li" />
+            <img src={require("../images/angel.jpg")} alt="Angel Li" />
             <h3>Angel Li</h3>
             <p>MBChB Student at The University of Auckland</p>
           </div>
           <div className="tutor">
-            <img src="\images\nancy.jpg" alt="Nancy Wu" />
+            <img src={require("../images/nancy.jpg")} alt="Nancy Wu" />
             <h3>Nancy Wu</h3>
             <p>
               BSc/BCom Student at the University of Auckland, majoring in
