@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 80px;
   background-color: #d7ccbc;
   margin-top: -80px;
@@ -47,4 +47,9 @@
 
 .left-nav {
   display: flex;
+}
+
+.left-nav > a > h2 {
+  text-decoration: none;
+  color: black;
 }

@@ -4,18 +4,16 @@ import "../styles/home.css";
 
 const Home = () => {
   return (
-    <div id="home">
-      <div className="home">
-        <h1 className="title">Trilogy Tutoring</h1>
-        <p>
-          <em className="slogan">Your friendly neighbourhood tutors</em>
-        </p>
+    <div id="home" className="home">
+      <h1 className="title">Trilogy Tutoring</h1>
+      <p>
+        <em className="slogan">Your friendly neighbourhood tutors</em>
+      </p>
 
-        <div className="button">
-          <a href="https://forms.gle/j1QrJvoTKEewEsxH7" target="_blank">
-            <button>Book a free 30 minute session</button>
-          </a>
-        </div>
+      <div className="button">
+        <a href="https://forms.gle/j1QrJvoTKEewEsxH7" target="_blank">
+          <button>Book a free 30 minute session</button>
+        </a>
       </div>
     </div>
   );
