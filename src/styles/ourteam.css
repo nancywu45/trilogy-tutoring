@@ -10,8 +10,10 @@
 
 .profiles > .tutor > img {
   width: 150px;
+  border-radius: 25px;
 }
 
 .tutor {
   width: 300px;
+  padding: 10px;
 }

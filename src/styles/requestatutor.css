@@ -2,3 +2,7 @@
   margin: 100px;
   text-align: center;
 }
+
+.requestatutor > button {
+  width: 70px;
+}
