@@ -21,8 +21,7 @@ const OurTeam = () => {
         scholarships including: NZQA Outstanding Scholars, University of
         Auckland Top Achievers, UNSW, University of Sydney, Victoria University,
         Otago University and Massey University. We now study Finance／Computer
-        Science and Medicine at the University of Auckland, maintaining grades
-        of straight A’s across our courses.
+        Science and Medicine at the University of Auckland.
       </p>
       <div className="profiles">
         <div className="tutor">
