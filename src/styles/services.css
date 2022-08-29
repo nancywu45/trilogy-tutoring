@@ -7,3 +7,7 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.yearlevel {
+  padding: 10px;
+}

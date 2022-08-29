@@ -12,15 +12,15 @@ const Services = () => {
         charge! After this lesson, we offer the below rates:
       </p>
       <div className="pricing">
-        <div>
+        <div className="yearlevel">
           <h3>Years 1-10</h3>
           <p>$35 per lesson</p>
         </div>
-        <div>
+        <div className="yearlevel">
           <h3>NCEA</h3>
           <p>$40 per lesson</p>
         </div>
-        <div>
+        <div className="yearlevel">
           <h3>Scholarship</h3>
           <p>$50 per lesson</p>
         </div>
