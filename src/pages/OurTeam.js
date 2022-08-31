@@ -26,20 +26,19 @@ const OurTeam = () => {
       <div className="profiles">
         <div className="tutor">
           <img src={require("../images/carol.jpg")} alt="Carol Huang" />
-          <h3>Carol Huang</h3>
-          <p>MBChB Student at The University of Auckland</p>
+          <h3 className="tutorName">Carol Huang</h3>
+          <p className="degree">MBChB</p>
         </div>
         <div className="tutor">
           <img src={require("../images/angel.jpg")} alt="Angel Li" />
-          <h3>Angel Li</h3>
-          <p>MBChB Student at The University of Auckland</p>
+          <h3 className="tutorName">Angel Li</h3>
+          <p className="degree">MBChB</p>
         </div>
         <div className="tutor">
           <img src={require("../images/nancy.jpg")} alt="Nancy Wu" />
-          <h3>Nancy Wu</h3>
-          <p>
-            BSc/BCom Student at the University of Auckland, majoring in Computer
-            Science, Finance, Business Analytics
+          <h3 className="tutorName">Nancy Wu</h3>
+          <p className="degree">
+            BSc/BCom (Computer Science, Finance, Business Analytics)
           </p>
         </div>
       </div>

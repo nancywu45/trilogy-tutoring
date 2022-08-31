@@ -1,6 +1,12 @@
 .requestatutor {
-  margin: 100px;
+  height: calc(100vh - 80px);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
 }
 
 .requestatutor > button {
