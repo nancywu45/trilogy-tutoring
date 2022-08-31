@@ -1,6 +1,6 @@
 # Trilogy Tutoring
 
-This site is currently live! Visit the site at <a>trilogytutoring.me</a>
+This site is currently live! Visit the site at [trilogytutoring.me](trilogytutoring.me)
 
 Trilogy Tutoring is small tutoring business which started up in early 2022 by a group of 3 friends who met in highschool and are now studying at The University of Auckland. This site is still a work in progress and is very much an excuse to experiment with the likes of React, HTML and CSS. Feel free to contact any of our team with feedback or general queries!
 
