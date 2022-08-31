@@ -4,7 +4,7 @@ import "../styles/ourteam.css";
 const OurTeam = () => {
   return (
     <div id="ourteam" className="ourteam">
-      <h2>Our Team</h2>
+      <h2 className="section-title">🍂 Our Team 🍂</h2>
       <p>
         The journey to success is never one-size-fits-all, we each require
         different needs. This is why Trilogy Tutoring pushes for personally
@@ -18,10 +18,9 @@ const OurTeam = () => {
         Our team comes from a strong academic background, each graduating as
         Proxime Accessit/Summa Cum Laude of Rangitoto College. We are proud to
         have achieved a combined value of NZD$230,000 across prestigious
-        scholarships including: NZQA Outstanding Scholars, University of
-        Auckland Top Achievers, UNSW, University of Sydney, Victoria University,
-        Otago University and Massey University. We now study Finance／Computer
-        Science and Medicine at the University of Auckland.
+        scholarships including NZQA Outstanding Scholars and University of
+        Auckland Top Achievers. We now study at the University of Auckland. Find
+        out more about our team below!
       </p>
       <div className="profiles">
         <div className="tutor">

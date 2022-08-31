@@ -9,11 +9,18 @@
   margin: auto;
 }
 
+.section-title {
+  font-size: 40px;
+  margin: 0 0 10px 0;
+}
+
 .pricing {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
 }
 
 .yearlevel {
-  padding: 10px;
+  padding: 20px;
+  background-color: ;
 }

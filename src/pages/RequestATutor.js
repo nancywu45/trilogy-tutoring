@@ -4,7 +4,7 @@ import "../styles/requestatutor.css";
 function RequestATutor() {
   return (
     <div id="requestatutor" className="requestatutor">
-      <h2>Request a Tutor</h2>
+      <h2 className="section-title">🌳 Request a Tutor 🌳</h2>
       <p>
         We want you/your child to succeed! Our aim is to help alongside school
         rather than to be a substitute. Bring along any questions or if there is

@@ -11,7 +11,7 @@
 
 .profiles {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .profiles > .tutor > img {
@@ -20,8 +20,8 @@
 }
 
 .tutor {
-  width: 300px;
-  padding: 10px;
+  width: 200px;
+  padding: 20px;
 }
 
 /* .degree {
