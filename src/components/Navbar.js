@@ -1,7 +1,6 @@
 import React from "react";
 import trilogy from "../images/logo/trilogy-transparent.png";
 import "../styles/Navbar.css";
-import { Text } from "atomize";
 
 const Navbar = () => {
   return (
@@ -13,15 +12,22 @@ const Navbar = () => {
         </a>
       </div>
       <ul>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#ourteam">Our Team</a>
-        </li>
-        <li>
-          <a href="#requestatutor">Request a Tutor</a>
-        </li>
+        <div className="mobile">
+          <li>
+            <img src="../images/icons/menu.svg" alt="menu icon" />
+          </li>
+        </div>
+        <div className="desktop">
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#ourteam">Our Team</a>
+          </li>
+          <li>
+            <a href="#requestatutor">Request a Tutor</a>
+          </li>
+        </div>
       </ul>
     </div>
   );
