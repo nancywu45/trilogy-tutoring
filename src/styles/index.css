@@ -1,10 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-/* green hue #3A5F0B 
-gold hue #D4AF37 */
+:root {
+  font-family: "Open Sans";
+  font-size: 16px;
+  --bg-primary: #3a5f0b;
+  --bg-secondary: #d4af37;
+}
 
 * {
   box-sizing: border-box;
+}
+
+/* SCROLL BAR */
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--bg-primary);
 }
 
 body {
@@ -30,7 +47,7 @@ button {
   border-radius: 22px;
   font-weight: bold;
   color: white;
-  background: #3a5f0b;
+  background: var(--bg-primary);
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -39,7 +56,7 @@ button {
 }
 
 span {
-  background: #d4af37;
+  background: var(--bg-secondary);
   height: 100%;
   width: 0;
   border-radius: 25px;

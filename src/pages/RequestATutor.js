@@ -13,10 +13,39 @@ function RequestATutor() {
         reinforce what your child went through in class that week and set up
         focus areas and study tips.
       </p>
-      <div className="button">
+      {/* <div className="button">
         <a href="https://forms.gle/j1QrJvoTKEewEsxH7" target="_blank">
           <button>Sign up now</button>
         </a>
+      </div> */}
+      <div className="submissionForm">
+        <form action="https://formbold.com/s/ozVZq" method="POST">
+          <label for="email">
+            Email:
+            <input type="email" name="email" />
+          </label>
+          <label for="name">
+            Name:
+            <textarea name="message" defaultValue={""} />
+          </label>
+          <label for="phoneNumber">
+            Phone number:
+            <textarea name="message" defaultValue={""} />
+          </label>
+          <label for="subject">
+            Subject:
+            <textarea name="message" defaultValue={""} />
+          </label>
+          <label for="yearLevel">
+            Current year level (2023):
+            <textarea name="message" defaultValue={""} />
+          </label>
+          <label for="notes">
+            Notes/Extras:
+            <textarea name="message" defaultValue={""} />
+          </label>
+          <button type="submit">Sign up now</button>
+        </form>
       </div>
     </div>
   );

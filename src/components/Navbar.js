@@ -1,6 +1,6 @@
 import React from "react";
 import trilogy from "../images/logo/trilogy-transparent.png";
-import menuIcon from "../images/icons/menu.svg";
+import doubleArrowDown from "../images/icons/double-arrow-down.svg";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
       <ul>
         <div className="mobile">
           <li>
-            <img src={menuIcon} alt="menu icon" />
+            <img src={doubleArrowDown} alt="double down arrow" />
           </li>
         </div>
         <div className="desktop">

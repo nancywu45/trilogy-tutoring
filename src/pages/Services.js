@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/services.css";
+import singleArrowDown from "../images/icons/single-arrow-down.svg";
 
 const Services = () => {
   return (
@@ -24,6 +25,16 @@ const Services = () => {
           <h3>Scholarship</h3>
           <p>$50 per lesson</p>
         </div>
+      </div>
+
+      <div className="navArrowServices">
+        <a href="#ourteam">
+          <img
+            src={singleArrowDown}
+            alt="navigation arrow"
+            class="filterWhite"
+          />
+        </a>
       </div>
     </div>
   );

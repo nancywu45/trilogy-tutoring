@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/home.css";
-// import { Div, Container } from "atomize";
+import singleArrowDown from "../images/icons/single-arrow-down.svg";
 
 const Home = () => {
   return (
@@ -11,8 +11,18 @@ const Home = () => {
       </p>
 
       <div className="button">
-        <a href="https://forms.gle/j1QrJvoTKEewEsxH7" target="_blank">
+        <a href="#requestatutor">
           <button>Book a free 30 minute session</button>
+        </a>
+      </div>
+
+      <div className="navArrowHome">
+        <a href="#services">
+          <img
+            src={singleArrowDown}
+            alt="navigation arrow"
+            class="filterWhite"
+          />
         </a>
       </div>
     </div>

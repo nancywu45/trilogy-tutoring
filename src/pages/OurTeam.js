@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/ourteam.css";
+import singleArrowDown from "../images/icons/single-arrow-down.svg";
 
 const OurTeam = () => {
   return (

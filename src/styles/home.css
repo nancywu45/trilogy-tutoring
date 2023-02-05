@@ -32,3 +32,22 @@
   display: flex;
   justify-content: center;
 }
+
+.navArrowHome img {
+  /* fix alignment of arrow */
+  max-width: 3rem;
+  position: absolute;
+  align-items: center;
+  bottom: 50px;
+}
+
+/* .navArrowHome a:active {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+} */
+
+.filterWhite {
+  /* change colour of arrow */
+  filter: invert(50%);
+}

@@ -22,5 +22,24 @@
 
 .yearlevel {
   padding: 20px;
-  background-color: ;
+  /* background-color: ; */
+}
+
+.navArrowServices img {
+  /* fix alignment of arrow */
+  max-width: 2rem;
+  position: absolute;
+  align-items: center;
+  bottom: 50px;
+}
+
+/* .navArrowServices a:active {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+} */
+
+.filterWhite {
+  /* change colour of arrow */
+  filter: invert(50%);
 }
