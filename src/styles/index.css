@@ -40,6 +40,12 @@ h3 {
   justify-content: center;
 }
 
+.sectionTitle {
+  font-size: 40px;
+  margin: 0 0 10px 0;
+  white-space: nowrap;
+}
+
 button {
   width: 320px;
   padding: 15px 0;

@@ -5,7 +5,7 @@ import singleArrowDown from "../images/icons/single-arrow-down.svg";
 const Services = () => {
   return (
     <div id="services" className="services">
-      <h2 className="section-title">🌱 Our Services 🌱</h2>
+      <h2 className="sectionTitle">🌱 Our Services 🌱</h2>
       <p>
         We offer a first trial lesson because we believe in finding the right
         fit for your needs. This is a chance for you or your child to let us

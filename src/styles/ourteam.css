@@ -28,3 +28,40 @@
 /* .degree {
   width: 150px;
 } */
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 600px) {
+  .profiles {
+    margin-top: 10px;
+  }
+
+  .profiles > .tutor > img {
+    width: 100px;
+    border-radius: 25px;
+  }
+
+  .tutor {
+    width: 100%;
+    padding: 0px;
+    margin: none;
+    text-align: center;
+  }
+
+  .tutorName {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .degree {
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
+}
+
+/* @media only screen and (min-width: 600px) {
+
+
+  .desktop {
+    display: inline-block;
+  }
+} */

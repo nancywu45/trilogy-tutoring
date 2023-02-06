@@ -5,7 +5,7 @@ import singleArrowDown from "../images/icons/single-arrow-down.svg";
 const OurTeam = () => {
   return (
     <div id="ourteam" className="ourteam">
-      <h2 className="section-title">🍂 Our Team 🍂</h2>
+      <h2 className="sectionTitle">🍂 Our Team 🍂</h2>
       <p>
         The journey to success is never one-size-fits-all, we each require
         different needs. This is why Trilogy Tutoring pushes for personally

@@ -9,11 +9,6 @@
   margin: auto;
 }
 
-.section-title {
-  font-size: 40px;
-  margin: 0 0 10px 0;
-}
-
 .pricing {
   display: flex;
   flex-direction: row;
