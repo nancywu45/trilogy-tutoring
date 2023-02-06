@@ -1,6 +1,6 @@
 .requestatutor {
   height: calc(100vh - 80px);
-  text-align: center;
+  text-align: justify;
   display: flex;
   flex-direction: column;
   align-items: center;
