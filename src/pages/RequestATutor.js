@@ -22,27 +22,47 @@ function RequestATutor() {
         <form action="https://formbold.com/s/ozVZq" method="POST">
           <label for="email">
             Email:
-            <input type="email" name="email" />
+            <input type="email" name="email" placeholder="Your email" />
           </label>
           <label for="name">
             Name:
-            <textarea name="message" defaultValue={""} />
+            <textarea
+              name="message"
+              defaultValue={""}
+              placeholder="Your name"
+            />
           </label>
           <label for="phoneNumber">
             Phone number:
-            <textarea name="message" defaultValue={""} />
+            <textarea
+              name="message"
+              defaultValue={""}
+              placeholder="Your contact phone number"
+            />
           </label>
-          <label for="subject">
+          <label for="subject" className="subject">
             Subject:
-            <textarea name="message" defaultValue={""} />
+            <textarea
+              name="message"
+              defaultValue={""}
+              placeholder="Please specify subject(s) you would like to be tutored in"
+            />
           </label>
           <label for="yearLevel">
-            Current year level (2023):
-            <textarea name="message" defaultValue={""} />
+            Year level:
+            <textarea
+              name="message"
+              defaultValue={""}
+              placeholder="The student's current year level in 2023"
+            />
           </label>
-          <label for="notes">
+          <label for="notes" className="notes">
             Notes/Extras:
-            <textarea name="message" defaultValue={""} />
+            <textarea
+              name="message"
+              defaultValue={""}
+              placeholder="Anything else you would like us to know or discuss"
+            />
           </label>
           <button type="submit">Sign up now</button>
         </form>

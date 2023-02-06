@@ -13,20 +13,35 @@
   width: 70px;
 }
 
-.submissionForm {
+.submissionForm label {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* width: 70%;
-  margin: 1rem auto;
-  padding: 2rem; */
+  text-align: left;
+  margin-top: 10px;
 }
 
-label {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 70%;
+input,
+textarea {
+  resize: none;
+  height: 2rem;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  border-bottom: 2px solid var(--bg-primary);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.subject textarea {
+  height: 3rem;
+}
+
+.notes textarea {
+  height: 4rem;
+}
+
+::placeholder {
+  color: #b2b8ab;
 }

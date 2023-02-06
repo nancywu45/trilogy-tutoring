@@ -3,6 +3,7 @@
 :root {
   font-family: "Open Sans";
   font-size: 16px;
+  --text-secondary: #d7ccbc;
   --bg-primary: #3a5f0b;
   --bg-secondary: #d4af37;
 }
