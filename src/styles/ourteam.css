@@ -25,6 +25,15 @@
   text-align: center;
 }
 
+#navArrowDownTeam img {
+  max-width: 2rem;
+}
+
+#navArrowUpTeam img {
+  max-width: 2rem;
+  margin-bottom: 1rem;
+}
+
 /* .degree {
   width: 150px;
 } */

@@ -21,12 +21,14 @@
   /* background-color: ; */
 }
 
-.navArrowServices img {
-  /* fix alignment of arrow */
+#navArrowDownServices img {
   max-width: 2rem;
-  position: absolute;
-  align-items: center;
-  bottom: 50px;
+  margin-top: 3rem;
+}
+
+#navArrowUpServices img {
+  max-width: 2rem;
+  margin-bottom: 3rem;
 }
 
 /* .navArrowServices a:active {

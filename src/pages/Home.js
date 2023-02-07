@@ -16,7 +16,7 @@ const Home = () => {
         </a>
       </div>
 
-      <div className="navArrowHome">
+      <div id="navArrowDownHome" className="navArrow">
         <a href="#services">
           <img
             src={singleArrowDown}

@@ -1,10 +1,17 @@
 import React from "react";
 import "../styles/services.css";
 import singleArrowDown from "../images/icons/single-arrow-down.svg";
+import singleArrowUp from "../images/icons/single-arrow-up.svg";
 
 const Services = () => {
   return (
     <div id="services" className="services">
+      <div id="navArrowUpServices" className="navArrow">
+        <a href="#home">
+          <img src={singleArrowUp} alt="navigation arrow" class="filterWhite" />
+        </a>
+      </div>
+
       <h2 className="sectionTitle">🌱 Our Services 🌱</h2>
       <p>
         We offer a first trial lesson because we believe in finding the right
@@ -27,7 +34,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="navArrowServices">
+      <div id="navArrowDownServices" className="navArrow">
         <a href="#ourteam">
           <img
             src={singleArrowDown}

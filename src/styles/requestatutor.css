@@ -49,3 +49,8 @@ textarea:focus {
 ::placeholder {
   color: #b2b8ab;
 }
+
+#navArrowUpRequest img {
+  max-width: 2rem;
+  margin-bottom: 1rem;
+}

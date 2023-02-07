@@ -33,12 +33,9 @@
   justify-content: center;
 }
 
-.navArrowHome img {
-  /* fix alignment of arrow */
-  max-width: 3rem;
-  position: absolute;
-  align-items: center;
-  bottom: 50px;
+#navArrowDownHome img {
+  max-width: 2rem;
+  margin-top: 3rem;
 }
 
 /* .navArrowHome a:active {
@@ -46,8 +43,3 @@
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
 } */
-
-.filterWhite {
-  /* change colour of arrow */
-  filter: invert(50%);
-}

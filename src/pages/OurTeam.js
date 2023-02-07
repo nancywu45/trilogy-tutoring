@@ -1,10 +1,17 @@
 import React from "react";
 import "../styles/ourteam.css";
 import singleArrowDown from "../images/icons/single-arrow-down.svg";
+import singleArrowUp from "../images/icons/single-arrow-up.svg";
 
 const OurTeam = () => {
   return (
     <div id="ourteam" className="ourteam">
+      <div id="navArrowUpTeam" className="navArrow">
+        <a href="#services">
+          <img src={singleArrowUp} alt="navigation arrow" class="filterWhite" />
+        </a>
+      </div>
+
       <h2 className="sectionTitle">🍂 Our Team 🍂</h2>
       <p>
         The journey to success is never one-size-fits-all, we each require
@@ -41,6 +48,16 @@ const OurTeam = () => {
             BSc/BCom (Computer Science, Finance, Business Analytics)
           </p>
         </div>
+      </div>
+
+      <div id="navArrowDownTeam" className="navArrow">
+        <a href="#requestatutor">
+          <img
+            src={singleArrowDown}
+            alt="navigation arrow"
+            class="filterWhite"
+          />
+        </a>
       </div>
     </div>
   );

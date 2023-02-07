@@ -84,3 +84,7 @@ th,
 td {
   border: 1px solid;
 }
+
+.filterWhite {
+  filter: invert(50%);
+}
