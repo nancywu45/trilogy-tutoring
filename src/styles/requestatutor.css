@@ -50,3 +50,10 @@ textarea:focus {
   max-width: 2rem;
   margin-bottom: 1rem;
 }
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 600px) {
+  .requestatutor {
+    width: 83%;
+  }
+}
