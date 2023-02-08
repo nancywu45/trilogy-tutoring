@@ -25,6 +25,16 @@
   text-align: center;
 }
 
+.tutorName {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.degree {
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
+
 #navArrowDownTeam img {
   max-width: 2rem;
 }
@@ -39,6 +49,12 @@
 } */
 
 /* RESPONSIVE RULES */
+@media screen and (max-width: 900px) {
+  #navArrowDownTeam img {
+    margin-top: -2rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .profiles {
     margin-top: 10px;
@@ -56,14 +72,8 @@
     text-align: center;
   }
 
-  .tutorName {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  .degree {
-    margin-top: 5px;
-    font-size: 0.8rem;
+  .ourteam {
+    width: 83%;
   }
 }
 

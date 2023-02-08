@@ -38,12 +38,8 @@ textarea:focus {
   outline: none;
 }
 
-.subject textarea {
-  height: 3rem;
-}
-
 .notes textarea {
-  height: 4rem;
+  height: 3rem;
 }
 
 ::placeholder {
