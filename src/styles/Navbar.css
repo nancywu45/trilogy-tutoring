@@ -46,9 +46,9 @@
 }
 
 .mobile li img {
-  max-width: 1.5rem;
-  transform: rotate(0deg);
-  transition: transform 0.5s;
+  max-width: 2rem;
+  /* transform: rotate(0deg);
+  transition: transform 0.5s; */
 }
 /* 
 .mobile li img:hover {

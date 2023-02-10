@@ -15,8 +15,17 @@ const Navbar = () => {
       <ul>
         <div className="mobile">
           <li>
-            <img src={doubleArrowDown} alt="double down arrow" />
+            <a href="#services">🌱</a>
           </li>
+          <li>
+            <a href="#ourteam">🍂</a>
+          </li>
+          <li>
+            <a href="#requestatutor">🌳</a>
+          </li>
+          {/* <li>
+            <img src={doubleArrowDown} alt="double down arrow" />
+          </li> */}
         </div>
         <div className="desktop">
           <li>
