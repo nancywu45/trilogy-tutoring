@@ -22,15 +22,18 @@
 .slogan {
   display: flex;
   justify-content: center;
-  /* margin: 20px auto; */
-  /* font-weight: 100px; */
-  /* line-height: 25px; */
   color: #d4af37;
 }
 
-.button {
-  display: flex;
-  justify-content: center;
+.home button {
+  background-color: var(--bg-primary);
+  transition: 0.2s ease;
+}
+
+.home button:hover {
+  background-color: transparent;
+  border: 0.2rem solid var(--bg-primary);
+  color: #fff;
 }
 
 #navArrowDownHome img {

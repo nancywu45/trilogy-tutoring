@@ -74,10 +74,10 @@ span {
   transition: 0.5s;
 }
 
-button:hover span {
+/* button:hover span {
   width: 100%;
   border: 3px;
-}
+} */
 
 table,
 th,
