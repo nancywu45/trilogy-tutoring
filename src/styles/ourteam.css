@@ -5,8 +5,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 70%;
+  width: 100%;
   margin: auto;
+  background-color: var(--bg-primary);
+  background-size: cover;
+}
+
+.ourteam h2,
+.ourteam h3,
+.ourteam p {
+  color: rgb(32, 19, 14);
+}
+
+.sectionContent {
+  width: 70%;
 }
 
 .profiles {
