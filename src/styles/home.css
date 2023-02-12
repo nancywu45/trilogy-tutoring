@@ -28,21 +28,21 @@
 .home button {
   background-color: var(--bg-primary);
   transition: 0.2s ease;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 .home button:hover {
   background-color: transparent;
   border: 0.2rem solid var(--bg-primary);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   color: #fff;
 }
 
 #navArrowDownHome img {
-  max-width: 2rem;
+  width: 2rem;
   margin-top: 3rem;
 }
-
-/* .navArrowHome a:active {
-  transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-} */

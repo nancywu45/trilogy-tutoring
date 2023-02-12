@@ -60,6 +60,7 @@ button {
   overflow: hidden;
   border: none;
   font-size: 18px;
+  border: 0px var(--bg-primary);
 }
 
 span {
@@ -87,4 +88,12 @@ td {
 
 .filterWhite {
   filter: invert(50%);
+}
+
+.navArrow img {
+  transition: transform 0.2s ease;
+}
+
+.navArrow img:hover {
+  transform: scale(1.2);
 }
