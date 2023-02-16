@@ -46,18 +46,20 @@ h3 {
   white-space: nowrap;
 }
 
+.button {
+  display: flex;
+  align-items: center;
+}
+
 button {
   width: 320px;
-  padding: 15px 0;
-  text-align: center;
+  padding: 10px;
   margin: 20px 10px;
   border-radius: 30px;
   font-weight: bold;
   color: white;
   background: var(--bg-primary);
   cursor: pointer;
-  position: relative;
-  overflow: hidden;
   font-size: 18px;
   border: 0.2rem solid transparent;
   transition: 0.2s ease;

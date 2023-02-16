@@ -32,7 +32,12 @@ function RequestATutor() {
         <form action="https://formbold.com/s/ozVZq" method="POST">
           <label for="email">
             Email:
-            <input type="email" name="email" placeholder="Your email" />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
           </label>
           <label for="name">
             Name:
@@ -40,6 +45,7 @@ function RequestATutor() {
               name="message"
               defaultValue={""}
               placeholder="Your name"
+              required
             />
           </label>
           <label for="phoneNumber">
@@ -48,6 +54,7 @@ function RequestATutor() {
               name="message"
               defaultValue={""}
               placeholder="Your contact phone number"
+              required
             />
           </label>
           <label for="subject" className="subject">
@@ -56,6 +63,7 @@ function RequestATutor() {
               name="message"
               defaultValue={""}
               placeholder="Please specify subject(s) you would like to be tutored in"
+              required
             />
           </label>
           <label for="yearLevel">
@@ -64,6 +72,7 @@ function RequestATutor() {
               name="message"
               defaultValue={""}
               placeholder="The student's current year level in 2023"
+              required
             />
           </label>
           <label for="notes" className="notes">
@@ -74,7 +83,9 @@ function RequestATutor() {
               placeholder="Anything else you would like us to know or discuss"
             />
           </label>
-          <button type="submit">Sign up now</button>
+          <div className="button">
+            <button type="submit">Sign up!</button>
+          </div>
         </form>
       </div>
     </div>

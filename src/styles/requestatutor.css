@@ -12,7 +12,7 @@
 .requestatutor button:hover {
   background-color: transparent;
   border: 0.2rem solid var(--bg-primary);
-  color: black;
+  color: var(--bg-primary);
 }
 
 .submissionForm {
