@@ -26,8 +26,28 @@
 }
 
 .instagramHandle {
+  display: flex;
+  justify-content: center;
   color: var(--bg-secondary);
   margin: 0;
+}
+
+.instagramHandle a {
+  display: flex;
+  justify-content: center;
+  color: var(--bg-secondary);
+  text-decoration: none;
+}
+
+.instagramHandle img {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+  fill: var(--bg-secondary);
+}
+
+.filterbgsecondary {
+  filter: invert(81%) sepia(92%) saturate(2542%) hue-rotate(324deg)
+    brightness(86%) contrast(93%);
 }
 
 .home button:hover {

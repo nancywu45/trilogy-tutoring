@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/home.css";
 import singleArrowDown from "../images/icons/single-arrow-down.svg";
+import instagramLogo from "../images/icons/instagram-logo.svg";
 
 const Home = () => {
   return (
@@ -9,7 +10,16 @@ const Home = () => {
       <p>
         <em className="slogan">Your friendly neighbourhood tutors</em>
       </p>
-      <p className="instagramHandle">@trilogytutoring</p>
+      <p className="instagramHandle">
+        <a href="https://www.instagram.com/trilogytutoring/" target="__blank">
+          <img
+            src={instagramLogo}
+            alt="instagram logo"
+            className="filterbgsecondary"
+          />
+          @trilogytutoring
+        </a>
+      </p>
 
       <div className="button">
         <a href="#requestatutor">
