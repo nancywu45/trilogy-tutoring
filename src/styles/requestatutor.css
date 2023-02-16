@@ -9,8 +9,10 @@
   margin: auto;
 }
 
-.requestatutor > button {
-  width: 70px;
+.requestatutor button:hover {
+  background-color: transparent;
+  border: 0.2rem solid var(--bg-primary);
+  color: black;
 }
 
 .submissionForm {

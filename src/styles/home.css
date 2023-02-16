@@ -25,20 +25,9 @@
   color: #d4af37;
 }
 
-.home button {
-  background-color: var(--bg-primary);
-  transition: 0.2s ease;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
 .home button:hover {
   background-color: transparent;
   border: 0.2rem solid var(--bg-primary);
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   color: #fff;
 }
 

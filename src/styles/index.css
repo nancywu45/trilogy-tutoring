@@ -51,16 +51,16 @@ button {
   padding: 15px 0;
   text-align: center;
   margin: 20px 10px;
-  border-radius: 22px;
+  border-radius: 30px;
   font-weight: bold;
   color: white;
   background: var(--bg-primary);
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  border: none;
   font-size: 18px;
-  border: 0px var(--bg-primary);
+  border: 0.2rem solid transparent;
+  transition: 0.2s ease;
 }
 
 span {
@@ -74,11 +74,6 @@ span {
   z-index: -1;
   transition: 0.5s;
 }
-
-/* button:hover span {
-  width: 100%;
-  border: 3px;
-} */
 
 table,
 th,
