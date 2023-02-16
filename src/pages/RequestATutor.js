@@ -12,22 +12,11 @@ function RequestATutor() {
       </div>
 
       <h2 className="sectionTitle">🌳 Request a Tutor 🌳</h2>
+      <p>Here at Trilogy, we advocate for each and every student's success.</p>
       <p>
-        Here at Trilogy, we advocate for each and every student's success. Our
-        aim is to help alongside school rather than to be a substitute, so bring
-        along any questions to assist in your learning.
+        Request to set up a free 30 minute trial session below! This will enable
+        us to understand your needs and how best to cater to them.
       </p>
-      <p>
-        If there is nothing in particular the student needs help with for that
-        week, we will have a lesson plan ready covering content on a similar
-        topic to reinforce the material learnt in class that week and set up
-        focus areas and study tips.
-      </p>
-      {/* <div className="button">
-        <a href="https://forms.gle/j1QrJvoTKEewEsxH7" target="_blank">
-          <button>Sign up now</button>
-        </a>
-      </div> */}
       <div className="submissionForm">
         <form action="https://formbold.com/s/ozVZq" method="POST">
           <label for="email">

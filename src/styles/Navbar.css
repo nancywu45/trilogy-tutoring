@@ -47,14 +47,11 @@
 
 .mobile li img {
   max-width: 2rem;
-  /* transform: rotate(0deg);
-  transition: transform 0.5s; */
 }
-/* 
-.mobile li img:hover {
-  width: 16rem;
-  transform: rotate(-180deg);
-} */
+
+.mobile li a {
+  text-decoration: none;
+}
 
 .navbar:hover li img {
   width: 16rem;

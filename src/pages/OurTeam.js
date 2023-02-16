@@ -15,20 +15,16 @@ const OurTeam = () => {
       <div className="sectionContent">
         <h2 className="sectionTitle">🍂 Our Team 🍂</h2>
         <p>
-          The journey to success is never one-size-fits-all, we each require
-          different needs. This is why Trilogy Tutoring pushes for personally
-          tailored support where we provide both academic support and guidance.
-          Here at Trilogy Tutoring, we work to suit your own needs, whether that
-          be help with schoolwork, exams or even a source of motivational
-          support. We also provide structured lesson plans drawn out from our
-          own experience to help you achieve your potential.
+          The journey to success is never one-size-fits-all. This is why here at
+          Trilogy Tutoring, we work to suit your own needs, whether that be help
+          with schoolwork, exams or even a source of motivational support.
         </p>
         <p>
           Our team comes from a strong academic background, each graduating as
-          Proxime Accessit/Summa Cum Laude of Rangitoto College. We are proud to
-          have achieved a combined value of NZD$230,000 across prestigious
-          scholarships including NZQA Outstanding Scholars and University of
-          Auckland Top Achievers. We now study at the University of Auckland.
+          Proxime Accessit/Summa Cum Laude of Rangitoto College. Over the years,
+          we've collated our own set of study notes and material which has
+          helped us get where we are today. This is where our personalised
+          lesson plans stem from! We now study at the University of Auckland.
           Find out more about our team below!
         </p>
         <div className="profiles">
@@ -45,9 +41,7 @@ const OurTeam = () => {
           <div className="tutor">
             <img src={require("../images/nancy.jpg")} alt="Nancy Wu" />
             <h3 className="tutorName">Nancy Wu</h3>
-            <p className="degree">
-              BSc/BCom (Computer Science, Finance, Business Analytics)
-            </p>
+            <p className="degree">BSc/BCom</p>
           </div>
         </div>
       </div>

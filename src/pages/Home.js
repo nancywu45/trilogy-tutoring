@@ -9,6 +9,7 @@ const Home = () => {
       <p>
         <em className="slogan">Your friendly neighbourhood tutors</em>
       </p>
+      <p className="instagramHandle">@trilogytutoring</p>
 
       <div className="button">
         <a href="#requestatutor">
