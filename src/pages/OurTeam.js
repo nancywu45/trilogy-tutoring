@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/ourteam.css";
+import { motion } from "framer-motion";
+import Modal from "../components/Modal/modal";
 import singleArrowDown from "../images/icons/single-arrow-down.svg";
 import singleArrowUp from "../images/icons/single-arrow-up.svg";
 
 const OurTeam = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const close = () => {
+    setModalOpen(false);
+  };
+  const open = () => {
+    setModalOpen(true);
+  };
+
   return (
     <div id="ourteam" className="ourteam">
       <div id="navArrowUpTeam" className="navArrow">
@@ -29,19 +40,42 @@ const OurTeam = () => {
         </p>
         <div className="profiles">
           <div className="tutor">
-            <img src={require("../images/carol.jpg")} alt="Carol Huang" />
-            <h3 className="tutorName">Carol Huang</h3>
-            <p className="degree">MBChB</p>
+            <motion.button
+              whileHover={{ scale: 1.1, backgroundColor: "#f5f5f5" }}
+              whileTap={{ scale: 0.9 }}
+              className="carolProfile"
+              onClick={() => (modalOpen ? close() : open())}
+            >
+              <img src={require("../images/carol.jpg")} alt="Carol Huang" />
+              <h3 className="tutorName">Carol Huang</h3>
+              <p className="degree">MBChB</p>
+            </motion.button>
           </div>
           <div className="tutor">
-            <img src={require("../images/angel.jpg")} alt="Angel Li" />
-            <h3 className="tutorName">Angel Li</h3>
-            <p className="degree">MBChB</p>
+            <motion.button
+              whileHover={{ scale: 1.1, backgroundColor: "#f5f5f5" }}
+              whileTap={{ scale: 0.9 }}
+              className="angelProfile"
+              onClick={() => (modalOpen ? close() : open())}
+            >
+              <img src={require("../images/angel.jpg")} alt="Angel Li" />
+              <h3 className="tutorName">Angel Li</h3>
+              <p className="degree">MBChB</p>
+            </motion.button>
           </div>
           <div className="tutor">
-            <img src={require("../images/nancy.jpg")} alt="Nancy Wu" />
-            <h3 className="tutorName">Nancy Wu</h3>
-            <p className="degree">BSc/BCom</p>
+            <motion.button
+              whileHover={{ scale: 1.1, backgroundColor: "#f5f5f5" }}
+              whileTap={{ scale: 0.9 }}
+              className="nancyProfile"
+              onClick={() => (modalOpen ? close() : open())}
+            >
+              <img src={require("../images/nancy.jpg")} alt="Nancy Wu" />
+              <h3 className="tutorName">Nancy Wu</h3>
+              <p className="degree">BSc/BCom</p>
+            </motion.button>
+
+            {modalOpen && <Modal modalOpen={modalOpen} handleClose={close} />}
           </div>
         </div>
       </div>

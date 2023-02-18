@@ -27,15 +27,26 @@
   justify-content: center;
 }
 
-.profiles > .tutor > img {
-  width: 150px;
-  border-radius: 25px;
+.tutor {
+  text-align: center;
+  padding: 20px;
 }
 
-.tutor {
+.tutor img {
+  object-fit: contain;
   width: 200px;
-  padding: 20px;
-  text-align: center;
+}
+
+.nancyProfile {
+  width: auto;
+}
+
+.angelProfile {
+  width: auto;
+}
+
+.carolProfile {
+  width: auto;
 }
 
 .tutorName {
