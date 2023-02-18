@@ -49,6 +49,27 @@ const OurTeam = () => {
               <img src={require("../images/carol.jpg")} alt="Carol Huang" />
               <h3 className="tutorName">Carol Huang</h3>
               <p className="degree">MBChB</p>
+
+              {modalOpen && (
+                  <Modal modalOpen={modalOpen} handleClose={close} />
+                ) && (
+                  <motion.div className="tutorDescription">
+                    <p>
+                      Kia Ora! I’m Carol Huang, a 2nd year medical student at
+                      the University of Auckland. I graduated as the Proxime
+                      Accessit of Rangitoto College in 2020 and studied BSc
+                      (biomedical sciences) in 2021 on the UoA Top Achievers and
+                      NZQA Outstanding Scholars scholarships.
+                    </p>
+                    <p>
+                      When I’m not aimlessly scrolling through TikTok, I like to
+                      crochet or catch up on the latest episodes of Chicago Med
+                      (Dr Rhodes ♡). I’m also known for my inexplicable
+                      obsession over flowers, fairies, butterflies and anything
+                      #cottagecore.
+                    </p>
+                  </motion.div>
+                )}
             </motion.button>
           </div>
           <div className="tutor">
@@ -61,6 +82,26 @@ const OurTeam = () => {
               <img src={require("../images/angel.jpg")} alt="Angel Li" />
               <h3 className="tutorName">Angel Li</h3>
               <p className="degree">MBChB</p>
+
+              {modalOpen && (
+                  <Modal modalOpen={modalOpen} handleClose={close} />
+                ) && (
+                  <motion.div className="tutorDescription">
+                    <p>
+                      Hello! I’m Angel Li; after graduating as Summa Cum Laude
+                      of Rangitoto College in 2020, I studied BSc (biomedical
+                      sciences) in 2021 on the UoA Top Achievers and NZQA
+                      Outstanding Scholars scholarships.
+                    </p>
+                    <p>
+                      I’ve been enjoying studying medicine and learning about
+                      different specialisations within the field! During my free
+                      time, you can usually find me doing one of three things:
+                      binge watching the latest anime, playing the piano, or
+                      being carried on League of Legends.
+                    </p>
+                  </motion.div>
+                )}
             </motion.button>
           </div>
           <div className="tutor">
@@ -73,9 +114,31 @@ const OurTeam = () => {
               <img src={require("../images/nancy.jpg")} alt="Nancy Wu" />
               <h3 className="tutorName">Nancy Wu</h3>
               <p className="degree">BSc/BCom</p>
-            </motion.button>
 
-            {modalOpen && <Modal modalOpen={modalOpen} handleClose={close} />}
+              {modalOpen && (
+                  <Modal modalOpen={modalOpen} handleClose={close} />
+                ) && (
+                  <motion.div className="tutorDescription">
+                    <p>
+                      Howdy! I’m Nancy, a Computer Science, Business Analytics
+                      and Finance student at The University of Auckland.
+                    </p>
+                    <p>
+                      I graduated from Rangitoto College in 2020 and have a
+                      passion for learning which I love to share with others! My
+                      appetite favours the creative side but I also enjoy the
+                      satisfaction of having a challenging problem to solve.
+                      Having recently moved out of home, I’ve been busy trying
+                      out different recipes whilst listening to my favourite
+                      podcasts. When I’m not cooking up my next meal, you’ll
+                      most likely catch me at the gym; another favourite spot
+                      aside from the kitchen! Something I'd love to do more of
+                      is travel and explore the world outside of my hometown,
+                      New Zealand.
+                    </p>
+                  </motion.div>
+                )}
+            </motion.button>
           </div>
         </div>
       </div>

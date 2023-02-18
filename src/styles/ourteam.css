@@ -59,6 +59,12 @@
   font-size: 0.8rem;
 }
 
+.tutorDescription {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
 #navArrowDownTeam img {
   max-width: 2rem;
 }
