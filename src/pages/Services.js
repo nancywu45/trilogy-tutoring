@@ -4,6 +4,22 @@ import singleArrowDown from "../images/icons/single-arrow-down.svg";
 import singleArrowUp from "../images/icons/single-arrow-up.svg";
 
 const Services = () => {
+
+  const pricingData = [
+    {
+      level: "Years 1-10",
+      price: "$35 per lesson"
+    },
+    {
+      level: "NCEA",
+      price: "$40 per lesson"
+    },
+    {
+      level: "Scholarship",
+      price: "$50 per lessonn"
+    }
+  ]
+
   return (
     <div id="services" className="services">
       <div id="navArrowUpServices" className="navArrow">
@@ -20,18 +36,13 @@ const Services = () => {
         charge! After this lesson, we offer the below rates:
       </p>
       <div className="pricing">
-        <div className="yearlevel">
-          <h3>Years 1-10</h3>
-          <p>$35 per lesson</p>
-        </div>
-        <div className="yearlevel">
-          <h3>NCEA</h3>
-          <p>$40 per lesson</p>
-        </div>
-        <div className="yearlevel">
-          <h3>Scholarship</h3>
-          <p>$50 per lesson</p>
-        </div>
+        {pricingData.map(
+          tier => 
+            <div className="yearlevel">
+              <h3>{tier.level}</h3>
+              <p>{tier.price}</p>
+            </div>
+        )}
       </div>
 
       <div id="navArrowDownServices" className="navArrow">

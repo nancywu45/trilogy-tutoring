@@ -3,6 +3,46 @@ import "../styles/requestatutor.css";
 import singleArrowUp from "../images/icons/single-arrow-up.svg";
 
 function RequestATutor() {
+
+  const formData = [
+    {
+      type: "email",
+      label: "Email",
+      placeholder: "Your email",
+      required: true
+    },
+    {
+      type: "text",
+      label: "Name",
+      placeholder: "Your name",
+      required: true
+    },
+    {
+      type: "phoneNumber",
+      label: "Phone Number",
+      placeholder: "Your contact phone number",
+      required: true
+    },
+    {
+      type: "subject",
+      label: "Subject",
+      placeholder: "Please specify subject(s) you would like to be tutored in",
+      required: true
+    },
+    {
+      type: "yearLevel",
+      label: "Year level",
+      placeholder: `The student's current year level in ${new Date().getFullYear()}`,
+      required: true
+    },
+    {
+      type: "notes",
+      label: "Notes/Extras",
+      placeholder: "Anything else you would like us to know or discuss",
+      required: false
+    },
+  ]
+
   return (
     <div id="requestatutor" className="requestatutor">
       <div id="navArrowUpRequest" className="navArrow">
@@ -19,59 +59,18 @@ function RequestATutor() {
       </p>
       <div className="submissionForm">
         <form action="https://formbold.com/s/ozVZq" method="POST">
-          <label for="email">
-            Email:
-            <input
-              type="email"
-              name="email"
-              placeholder="Your email"
-              required
-            />
-          </label>
-          <label for="name">
-            Name:
-            <textarea
-              name="message"
-              defaultValue={""}
-              placeholder="Your name"
-              required
-            />
-          </label>
-          <label for="phoneNumber">
-            Phone number:
-            <textarea
-              name="message"
-              defaultValue={""}
-              placeholder="Your contact phone number"
-              required
-            />
-          </label>
-          <label for="subject" className="subject">
-            Subject:
-            <textarea
-              name="message"
-              defaultValue={""}
-              placeholder="Please specify subject(s) you would like to be tutored in"
-              required
-            />
-          </label>
-          <label for="yearLevel">
-            Year level:
-            <textarea
-              name="message"
-              defaultValue={""}
-              placeholder="The student's current year level in 2023"
-              required
-            />
-          </label>
-          <label for="notes" className="notes">
-            Notes/Extras:
-            <textarea
-              name="message"
-              defaultValue={""}
-              placeholder="Anything else you would like us to know or discuss"
-            />
-          </label>
+          {formData.map(
+            item => 
+              <label htmlFor={item.type}>
+              {item.label}:
+              <input
+                type={item.type}
+                name={item.name}
+                placeholder={item.placeholder}
+                required={item.required}
+              />
+            </label>
+          )}
           <div className="button">
             <button type="submit">Sign up!</button>
           </div>
