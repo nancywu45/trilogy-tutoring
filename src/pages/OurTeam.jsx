@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/ourteam.css";
 import { motion } from "framer-motion";
-import Modal from "../components/Modal/modal";
+import Modal from "../components/Modal";
 import singleArrowDown from "../images/icons/single-arrow-down.svg";
 import singleArrowUp from "../images/icons/single-arrow-up.svg";
 
