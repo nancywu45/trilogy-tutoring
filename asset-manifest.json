@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/trilogy-tutoring/static/css/main.0a7cafe8.css",
-    "main.js": "/trilogy-tutoring/static/js/main.1ccea4fe.js",
+    "main.css": "/trilogy-tutoring/static/css/main.aff644f2.css",
+    "main.js": "/trilogy-tutoring/static/js/main.5f728c0d.js",
     "static/js/787.c119ca46.chunk.js": "/trilogy-tutoring/static/js/787.c119ca46.chunk.js",
     "static/media/trees.jpg": "/trilogy-tutoring/static/media/trees.04fed560bda8fab4c2af.jpg",
     "static/media/trilogy-transparent.png": "/trilogy-tutoring/static/media/trilogy-transparent.d4de97199e63d4709a51.png",
-    "static/media/angel.jpg": "/trilogy-tutoring/static/media/angel.561f1ca1311432913d18.jpg",
-    "static/media/nancy.jpg": "/trilogy-tutoring/static/media/nancy.90532af004f7e02b1399.jpg",
-    "static/media/carol.jpg": "/trilogy-tutoring/static/media/carol.c21065cd11747e976dc8.jpg",
-    "static/media/instagram-logo.svg": "/trilogy-tutoring/static/media/instagram-logo.c0113239bc87d217189205448af0e84a.svg",
-    "static/media/double-arrow-down.svg": "/trilogy-tutoring/static/media/double-arrow-down.2c667e428bf2da150a437e1bbb0e2d3b.svg",
+    "static/media/Angel.jpg": "/trilogy-tutoring/static/media/Angel.561f1ca1311432913d18.jpg",
+    "static/media/Nancy.jpg": "/trilogy-tutoring/static/media/Nancy.31860009da9e9be0606a.jpg",
+    "static/media/Carol.jpg": "/trilogy-tutoring/static/media/Carol.c21065cd11747e976dc8.jpg",
+    "static/media/instagram-logo.svg": "/trilogy-tutoring/static/media/instagram-logo.4e1040c60019e895687b9d7c136e2f28.svg",
+    "static/media/double-arrow-down.svg": "/trilogy-tutoring/static/media/double-arrow-down.8763e6e8dc06c8524493810ff61944f5.svg",
     "index.html": "/trilogy-tutoring/index.html",
     "static/media/single-arrow-up.svg": "/trilogy-tutoring/static/media/single-arrow-up.4c6abf93e5f81056680a18aefc73d87e.svg",
     "static/media/single-arrow-down.svg": "/trilogy-tutoring/static/media/single-arrow-down.1edfab86f389055c97b80ec14e52f85c.svg",
-    "main.0a7cafe8.css.map": "/trilogy-tutoring/static/css/main.0a7cafe8.css.map",
-    "main.1ccea4fe.js.map": "/trilogy-tutoring/static/js/main.1ccea4fe.js.map",
+    "main.aff644f2.css.map": "/trilogy-tutoring/static/css/main.aff644f2.css.map",
+    "main.5f728c0d.js.map": "/trilogy-tutoring/static/js/main.5f728c0d.js.map",
     "787.c119ca46.chunk.js.map": "/trilogy-tutoring/static/js/787.c119ca46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a7cafe8.css",
-    "static/js/main.1ccea4fe.js"
+    "static/css/main.aff644f2.css",
+    "static/js/main.5f728c0d.js"
   ]
 }
