@@ -24,7 +24,7 @@ const Services = () => {
     <div id="services" className="services">
       <div id="navArrowUpServices" className="navArrow">
         <a href="#home">
-          <img src={singleArrowUp} alt="navigation arrow" class="filterWhite" />
+          <img src={singleArrowUp} alt="navigation arrow" className="filterWhite" />
         </a>
       </div>
 
@@ -38,7 +38,7 @@ const Services = () => {
       <div className="pricing">
         {pricingData.map(
           tier => 
-            <div className="yearlevel">
+            <div className="yearlevel" key={tier.level}>
               <h3>{tier.level}</h3>
               <p>{tier.price}</p>
             </div>
@@ -50,7 +50,7 @@ const Services = () => {
           <img
             src={singleArrowDown}
             alt="navigation arrow"
-            class="filterWhite"
+            className="filterWhite"
           />
         </a>
       </div>

@@ -47,7 +47,7 @@ const OurTeam = () => {
     <div id="ourteam" className="ourteam">
       <div id="navArrowUpTeam" className="navArrow">
         <a href="#services">
-          <img src={singleArrowUp} alt="navigation arrow" class="filterWhite" />
+          <img src={singleArrowUp} alt="navigation arrow" className="filterWhite" />
         </a>
       </div>
 
@@ -69,7 +69,7 @@ const OurTeam = () => {
         <div className="profiles">
           {teamData.map(
             person => 
-              <div className="tutor">
+              <div className="tutor" key={person.id}>
                 <motion.button
                   whileHover={{ scale: 1.1, backgroundColor: "#f5f5f5" }}
                   whileTap={{ scale: 0.9 }}
@@ -99,7 +99,7 @@ const OurTeam = () => {
           <img
             src={singleArrowDown}
             alt="navigation arrow"
-            class="filterWhite"
+            className="filterWhite"
           />
         </a>
       </div>

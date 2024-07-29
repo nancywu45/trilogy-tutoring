@@ -47,7 +47,7 @@ function RequestATutor() {
     <div id="requestatutor" className="requestatutor">
       <div id="navArrowUpRequest" className="navArrow">
         <a href="#ourteam">
-          <img src={singleArrowUp} alt="navigation arrow" class="filterWhite" />
+          <img src={singleArrowUp} alt="navigation arrow" className="filterWhite" />
         </a>
       </div>
 
@@ -61,7 +61,7 @@ function RequestATutor() {
         <form action="https://formbold.com/s/ozVZq" method="POST">
           {formData.map(
             item => 
-              <label htmlFor={item.type}>
+              <label htmlFor={item.type} key={item.type}>
               {item.label}:
               <input
                 type={item.type}

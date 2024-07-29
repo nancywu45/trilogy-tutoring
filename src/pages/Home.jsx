@@ -32,7 +32,7 @@ const Home = () => {
           <img
             src={singleArrowDown}
             alt="navigation arrow"
-            class="filterWhite"
+            className="filterWhite"
           />
         </a>
       </div>
